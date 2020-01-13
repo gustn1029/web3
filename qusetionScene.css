@@ -1,0 +1,75 @@
+<style>
+html{}
+body {
+  padding: 10px;
+  background-color: #dadada;
+}
+h1{
+  font-size: 45px;
+  border-bottom: 3px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+max-width: 1150px;
+  max-width:
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#menuBox {
+position: fixed;
+top: 150px;
+width:170px;
+left: 20px;
+right: 0;
+height: 100%;
+background-color: #fff;
+border-right: 1px solid #ddd;
+cursor: default;
+box-shadow: 2px 2px gray;
+}
+#menuBox .menu {
+  width:170px;
+padding-top: 30px;
+padding-bottom: 70px;
+
+  }
+
+  #menuBox .menu ul {
+    margin-top: 7px;
+  }
+
+  #body {
+    margin-left: 200px; position: fixed; max-width: 930px; width: 100%;
+    height: 100%;
+    top: 150px;
+  }
+  #body .show {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 30px;
+    background-color: #fff;
+    box-shadow: 2px 2px gray;
+    padding-bottom: 300px;
+
+  }
+  #body .question {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  #body .question a {
+    box-shadow: 2px 2px gray;
+    padding: 5px;
+  }
+  #body .design {
+    background-color: #dadada;
+    margin-top: 30px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+
+</style>
